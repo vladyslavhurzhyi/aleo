@@ -424,7 +424,7 @@ li {
 }
 
 .leo_bg1 {
-  background-image: url(/img/aleo_studio.png);
+  background-image: url(./img/aleo_studio.png);
   opacity: 0.3;
 
   background-size: cover;
@@ -436,7 +436,7 @@ li {
 }
 
 .leo_bg2 {
-  background-image: url(/img/aleo_vscode.png);
+  background-image: url(./img/aleo_vscode.png);
   opacity: 0.3;
 
   background-size: cover;
@@ -448,7 +448,7 @@ li {
 }
 
 .leo_bg3 {
-  background-image: url(/img/leo.png);
+  background-image: url(./img/leo.png);
   opacity: 0.3;
 
   background-size: cover;
