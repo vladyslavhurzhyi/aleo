@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aleo Leo</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Canvas -->
+    <canvas class="orb-canvas"></canvas>
+
+    <!-- header -->
+    <header>
+      <nav class="navigation container">
+        <span class="logo">Aleo<span class="logo_dot">.</span></span>
+        <ul class="navigation_list">
+          <li class="navigation_item">
+            <a class="navigation_link" href="">Про Aleo</a>
+          </li>
+          <li class="navigation_item">
+            <a class="navigation_link" href="">Язык Leo</a>
+          </li>
+          <li class="navigation_item">
+            <a class="navigation_link" href="">Новости Aleo</a>
+          </li>
+        </ul>
+
+        <a class="button_aleo" href="https://www.aleo.org/">Aleo.org</a>
+      </nav>
+    </header>
+
+    <section class="about container">
+      <div class="about_ustext mtforfixed">
+        <div class="text-wrapper">
+        <h1 class="about_title about_title_anim">Что такое Aleo?</h1>
+        <p class="about_text about_textaleo about_text_anim">
+          Aleo является протоколом, который работает по технологии Нулевого
+          Разглашения — ZK(Zero Knowledge).Также протокол является
+          программируемым, что дает возможность создавать действительно
+          безопасные приложения. Замыслом проекта является создать возможность
+          создавать безопасные частные приложения с нулевым разглашением(ZK),
+          ведь такое приложение будет быстрым и легко масштабируемым.
+        </p>
+        </div>
+      </div>
+
+      <div class="about_box">
+        <div class="about_ustext2">
+          <h2 class="about_title about_text_anim">Платформа Aleo</h2>
+
+          <p class="about_text about_text_anim">
+            Платформа предоставляет наборы инструментов для Windows, Linux и
+            macOS, которые позволяют пользователям писать, развертывать и
+            совместно использовать приложения с менеджером пакетов, что
+            позволяет им в частном порядке компилировать и тестировать коды.
+            Основное преимущество Leo заключается в том, что он позволяет
+            разработчикам, даже не разбирающимся в криптографии, хешировать
+            входящую информацию, используя протокол с нулевым разглашением.
+          </p>
+        </div>
+
+        <div class="about_ustext2 about_ustext3">
+          <h2 class="about_title about_text_anim">ZK - (Zero Knowledge)</h2>
+          <p class="about_text about_text_anim">
+            Zero Knowledge - криптографический протокол, который использует
+            публичные вероятностно проверяемые доказательства с нулевым
+            разглашением. Эта технология позволяет пользователям обмениваться
+            проверенной информацией без её разглашения или выполнять вычисления
+            с третьей стороной без раскрытия вычислений. Система хеширования
+            позволит выбирать, какие данные станут общедоступными, а какие
+            останутся у пользователя, а протокол с нулевым разглашением
+            блокирует утечку информации.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="leolang container js-target">
+      <h2 class="about_title leo_title  js-addclass ">Язык программирования Leo</h2>
+      <div class="about_leo js-addclass2 ">
+        <p class="about_text ">
+          Leo — это функциональный язык программирования со статической
+          типизацией, созданный для написания частных приложений. Язык
+          программирования высокого уровня, который компилируется в
+          низкоуровневые инструкции Aleo.
+        </p>
+        <p class="about_text about_text2">
+          Он позволяет командам инженеров создавать производительные, безопасные
+          и анонимные веб-приложения. Aleo представляет среду выполнения
+          приложений, которая позволяет вашему программному обеспечению
+          компилироваться, выполняться и завершать свое состояние автономно.
+        </p>
+
+        <!-- <p class="about_text about_text2">
+         
+         
+        </p> -->
+      </div>
+    </section>
+    <section class="leolang container ">
+      <h2 class="about_title leo_title ">Как начать разработку?</h2>
+      <div class="leo_lang">
+        <div class="about_leo about_leo_lang leo_padd">
+          <div class="about_leo about_leo_lang leo_bg1"></div>
+          <p class="about_text about_lang__leo">
+            Для того чтоб приступить к разработке вы можете скачать Aleo Studio
+            по ссылке с официального сайта.
+            <a
+              href="https://aleo.studio/"
+              target="_blank"
+              class="about_leo_link"
+              >(клик)</a
+            >
+          </p>
+        </div>
+        <div class="about_leo about_leo_lang leo_padd">
+          <div class="about_leo about_leo_lang leo_bg2"></div>
+          <p class="about_text about_lang__leo ">
+            Можете загрузить плагины IDE для Leo на Visual Studio Code / Sublime
+            Text 3 и разрабатывать из привычной вам среды. Ссылки на плагины
+            есть на официальном сайте по ссылке.
+            <a
+              href="https://leo-lang.org/"
+              target="_blank"
+              class="about_leo_link"
+              >(клик)</a
+            >
+          </p>
+        </div>
+
+        <div class="about_leo about_leo_lang leo_padd">
+          <div class="about_leo about_leo_lang leo_bg3"></div>
+          <p class="about_text about_lang__leo">
+            Так же вы можете использовать онлайн-приложение:
+            <a
+              href="https://play.leo-lang.org/ "
+              target="_blank"
+              class="about_leo_link "
+              >play.leo-lang.org</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- _________________________how_start_leo_______________________________ -->
+
+    <section class="howstart_leo container">
+      <h2 class="howstart_title">Создание нового проекта</h2>
+      <div class="howstart_box">
+        <p>
+          Используйте Leo CLI для создания нового проекта. В вашем терминале
+          запустите:
+        
+           <p class="code">leo new hello
+cd hello <svg class="icon" width="15" height="15">
+  <use href="/img/sprite.svg#icon-copy_button"></use>
+</svg></p>
+        </p>
+
+         <p class="howstart_text">
+          Это создает каталог со следующей структурой:
+        
+           <p class="code">hello <br>
+├── program.json # Your program manifest<br>
+├── README.md # Your program description<br>
+├── inputs/ <br>
+├...    hello.in # Your program inputs<br>
+└── src/    <br>
+  └── main.leo # Your program file<br></p>
+        </p>
+      </div>
+
+      <!-- _________________ -->
+
+       <h2 class="howstart_title">Запуск проекта</h2>
+      <div class="howstart_box">
+        <p>
+          Для запуска проекта используйте команду:
+        
+           <p class="code">leo run main <svg class="icon" width="15" height="15">
+  <use href="/img/sprite.svg#icon-copy_button"></use>
+</svg></p>
+        </p>
+
+         <p class="howstart_text">
+         В консоли вы увидите:
+        
+           <p class="code"> Build ✅ Compiled 'main.leo' into Aleo instructions (in "/hello/build/main.aleo")
+⏳ Compiling 'hello.aleo'... <br>
+
+ • Loaded universal setup (in 100 ms)<br>
+ • Built 'main' (in 1000 ms)<br>
+
+     Build ✅ Built 'hello.aleo' (in "/hello/build")<br>
+ • Loaded universal setup (in 100 ms)<br>
+🚀 Executing 'hello.aleo/main'...<br>
+
+ • Executing 'hello.aleo/main'...<br>
+ • Executed 'main' (in 1000 ms)<br>
+
+➡️  Output<br>
+
+ • 3u32<br>
+
+ Executing ✅ Executed 'hello.aleo/main' (in "/hello/build")</p>
+        </p>
+          <p class="congrat_text">Поздравляем! Вы только что запустили свою первую программу Leo. <br>
+          Более подробно вы можете ознакомиться с технической документацией на сайте <a class="link_dvlp" href="https://developer.aleo.org/overview/">developer.aleo.org</a></p>
+      </div>
+    </section>
+
+    <section class="aleo_news container">
+        <h2 class="about_title title_news">Новости Aleo</h2>
+      <div class="aleo_news_box">
+          <div class="news_aleo">
+     <p class="">
+            Программа амбассадоров — Возможность подачи заявок откроется 20 сентября 2022 г., 21:00 / через 12 дней. Она будет иметь тот же формат, что и предыдущая. Как только ссылка будет размещена, она автоматически закроется после 1500 заявок.
+          </p>
+      </div>
+        
+        <div class="news_aleo">
+ <p class="">
+         ALEO в Берлине! Мероприятие 11–15 сентября: Во время Берлинской недели блокчейна компания Aleo будет принимать у себя разработчиков. Если вы участвуете в мероприятии и являетесь разработчиком, загляните к нам! 
+          </p>
+      </div>
+
+        <div class="news_aleo">
+ <p class="">
+      Тель-Авив, 22 сентября. Присоединяйтесь к Howard Wu  из Aleo, чтобы поговорить о передовых методах работы с Web 3.0. Мероприятие бесплатное для разработчиков, но количество мест ограничено!  для получения дополнительной информации. <a class="link_dvlp" href="http://israelcrypto.io">israelcrypto.io</a> 
+          </p>
+      </div>
+
+       <div class="news_aleo">
+ <p class="">
+       — Богота, 13 октября: Присоединяйтесь к Aleo на Devcon Bogotá на семинаре для разработчиков ZK и созданию полностью приватных Web3-приложений. — Билеты доступны по ссылке (цена $10, но их стоимость будет полностью возвращена тем, кто посетит семинар): <a class="link_dvlp" href="https://aleobogota.eventbrite.com/">aleobogota.eventbrite.com</a> 
+          </p>
+      </div>
+        
+         
+          </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-logo">
+         
+        <span class="logo footerlog">   <img src="/img/aleologo.png" width="90px" height="25px" alt=""></span>
+      
+         <ul class="footer_list">
+          <li class="footer_item"><a class="footer_link" href="https://www.aleo.org/#footer">For Developers</a></li>
+          <li><a class="footer_link" href="https://aleo.studio/">Aleo Studio</a></li>
+         </ul>
+
+    <ul class="footer_list">
+          <li><a class="footer_link" href="https://aleo.network/">Aleo Explorer</a></li>
+          <li><a class="footer_link" href="https://aleo.pm/">Aleo Package Manager</a></li>
+         </ul>
+      
+<div class="social-list socialheaderitems" bis_skin_checked="1">
+      <a
+        href="https://twitter.com/AleoHQ"
+        target="_blank"
+        class="social-link-item socialheaderitem w-inline-block"
+        ><img
+          src="https://assets-global.website-files.com/5e990b3bae81cf4a03433c58/5e990b3c62a0fc55e9268ec3_twitter.svg"
+          alt=""
+          class="socialheaderimage" /></a
+      ><a
+        href="https://github.com/AleoHQ"
+        target="_blank"
+        class="social-link-item socialheaderitem w-inline-block"
+        ><img
+          src="https://assets-global.website-files.com/5e990b3bae81cf4a03433c58/5e990b3c62a0fca04c268eb7_github.svg"
+          alt=""
+          class="socialheaderimage" /></a
+      ><a
+        href="https://discord.gg/aleohq"
+        target="_blank"
+        class="social-link-item socialheaderitem w-inline-block"
+        ><img
+          src="https://assets-global.website-files.com/5e990b3bae81cf4a03433c58/5e9949e810343eb599e79944_discord.png"
+          width="30"
+          alt=""
+          class="socialheaderimage"
+      /></a>
+    </div>
+      </div>
+    </footer>
+
+    
+    <script type="module" src="/script.js"></script>
+        <script type="module" src="/script2.js"></script>
+  </body>
+</html>
