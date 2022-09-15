@@ -23,6 +23,7 @@
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -501,6 +502,7 @@ li {
   border: 1px solid rgba(255, 255, 255, 0.125);
   margin-bottom: 20px;
   padding: 20px;
+  position: relative;
 }
 
 .code {
@@ -515,6 +517,31 @@ li {
   position: absolute;
   top: 40%;
   right: 5%;
+}
+
+.icontext {
+  position: absolute;
+  opacity: 0;
+  top: 9.5%;
+  right: 1%;
+  font-size: 14px;
+}
+
+.js-icontext_animation {
+  animation: textFade;
+  animation-duration: 0.8s;
+}
+
+@keyframes textFade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .howstart_text {
@@ -645,7 +672,7 @@ li {
 
 .anim_fade {
   animation: div_fade;
-  animation-duration: 3s;
+  animation-duration: 2.5s;
 }
 
 @keyframes div_fade {
@@ -661,4 +688,10 @@ li {
 .socialheaderimage:focus {
   transform: scale(1.1);
   transition: all 200ms;
+}
+
+.btncopy {
+  background: transparent;
+  border: none !important;
+  font-size: 0;
 }

@@ -28,13 +28,13 @@
         <span class="logo">Aleo<span class="logo_dot">.</span></span>
         <ul class="navigation_list">
           <li class="navigation_item">
-            <a class="navigation_link" href="">Про Aleo</a>
+            <a class="navigation_link" href="#top">Про Aleo</a>
           </li>
           <li class="navigation_item">
-            <a class="navigation_link" href="">Язык Leo</a>
+            <a class="navigation_link" href="#leo">Язык Leo</a>
           </li>
           <li class="navigation_item">
-            <a class="navigation_link" href="">Новости Aleo</a>
+            <a class="navigation_link" href="#newsaleo">Новости Aleo</a>
           </li>
         </ul>
 
@@ -45,7 +45,7 @@
     <section class="about container">
       <div class="about_ustext mtforfixed">
         <div class="text-wrapper">
-        <h1 class="about_title about_title_anim">Что такое Aleo?</h1>
+        <h1 id="top" class="about_title about_title_anim">Что такое Aleo?</h1>
         <p class="about_text about_textaleo about_text_anim">
           Aleo является протоколом, который работает по технологии Нулевого
           Разглашения — ZK(Zero Knowledge).Также протокол является
@@ -89,7 +89,7 @@
     </section>
 
     <section class="leolang container js-target">
-      <h2 class="about_title leo_title  js-addclass ">Язык программирования Leo</h2>
+      <h2 class="about_title leo_title  js-addclass " id="leo">Язык программирования Leo</h2>
       <div class="about_leo js-addclass2 ">
         <p class="about_text ">
           Leo — это функциональный язык программирования со статической
@@ -160,12 +160,13 @@
     <section class="howstart_leo container">
       <h2 class="howstart_title">Создание нового проекта</h2>
       <div class="howstart_box">
+           <p class="icontext1  icontext">Текст скопирован!</p> 
         <p>
           Используйте Leo CLI для создания нового проекта. В вашем терминале
           запустите:
         
-           <p class="code">leo new hello
-cd hello <svg class="icon" width="15" height="15">
+           <p class="code" id="text1">leo new hello
+cd hello <svg class="icon" id="copy1" width="15" height="15">
   <use href="/img/sprite.svg#icon-copy_button"></use>
 </svg></p>
         </p>
@@ -187,12 +188,13 @@ cd hello <svg class="icon" width="15" height="15">
 
        <h2 class="howstart_title">Запуск проекта</h2>
       <div class="howstart_box">
+        <p class="icontext2 icontext">Текст скопирован!</p> 
         <p>
           Для запуска проекта используйте команду:
         
-           <p class="code">leo run main <svg class="icon" width="15" height="15">
+           <p class="code" id="text2">leo run main  <svg class="icon" id="copy2" width="15" height="15">
   <use href="/img/sprite.svg#icon-copy_button"></use>
-</svg></p>
+</svg> </p>
         </p>
 
          <p class="howstart_text">
@@ -222,8 +224,8 @@ cd hello <svg class="icon" width="15" height="15">
       </div>
     </section>
 
-    <section class="aleo_news container">
-        <h2 class="about_title title_news">Новости Aleo</h2>
+    <section class="aleo_news container js-targetnews">
+        <h2 class="about_title title_news" id="newsaleo">Новости Aleo</h2>
       <div class="aleo_news_box">
           <div class="news_aleo">
      <p class="">
@@ -299,8 +301,10 @@ cd hello <svg class="icon" width="15" height="15">
       </div>
     </footer>
 
-    
+ 
     <script type="module" src="/script.js"></script>
         <script type="module" src="/script2.js"></script>
+        <script type="module" src="/script3.js"></script>
+                <script type="module" src="/script4.js"></script>
   </body>
 </html>
